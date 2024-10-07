@@ -8,8 +8,6 @@ The Ultimate Tic-Tac-Toe AI Game is a sophisticated and challenging twist on the
 
 ## Features
 
----
-
 - **Alpha-Beta Pruning**:
   - Implemented using the Raylib library, Alpha-Beta Pruning helps the AI player make optimized decisions by efficiently pruning the search tree, reducing the number of nodes evaluated and thereby speeding up the decision-making process.
   - The algorithm ensures that the AI player is both competitive and quick, providing a challenging opponent for human players.
@@ -21,8 +19,6 @@ The Ultimate Tic-Tac-Toe AI Game is a sophisticated and challenging twist on the
 
 ## Implementation Details
 
----
-
 1. **Alpha-Beta Pruning Using C++**:
    - Developed with the Raylib library, the game interface provides a smooth and interactive experience.
    - The Alpha-Beta Pruning algorithm significantly reduces the computation time by eliminating branches in the search tree that do not need to be explored, allowing the AI to perform efficiently even under time constraints.
@@ -33,14 +29,11 @@ The Ultimate Tic-Tac-Toe AI Game is a sophisticated and challenging twist on the
 
 ## Screenshots
 
----
-
-![Alpha-Beta Pruning Interface](path/to/alpha-beta-screenshot.png)
-![MCTS Interface](path/to/mcts-screenshot.png)
+<img src='https://orgonah.github.io/YasinDanesh.github.io/images/Alpha-Beta.png' alt='Alpha-Beta Image' style="margin-bottom:15px; width: 70%">
+<img src='https://orgonah.github.io/YasinDanesh.github.io/images/MCTS.png' alt='MCTS Image' style="margin-bottom:15px; width: 70%">
+<br/>
 
 ## Conclusion
-
----
 
 The Ultimate Tic-Tac-Toe AI Game project showcases the integration of advanced AI techniques to create a challenging and enjoyable game. By Utilizing Alpha-Beta Pruning and Monte Carlo Tree Search, the AI is capable of making sophisticated decisions, providing a robust opponent for players.
 
