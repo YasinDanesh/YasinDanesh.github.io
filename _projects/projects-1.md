@@ -39,7 +39,6 @@ The Ultimate Tic-Tac-Toe AI Game project showcases the integration of advanced A
 
 ## Code
 
----
 
 The complete code for this project is available on [this repository](https://github.com/Orgonah/Ultimate_Tic_tac_toe_AI)
 
