@@ -1,6 +1,6 @@
 ---
 title: "Ultimate Tic-Tac-Toe AI Game"
-excerpt: "An advanced AI-driven version of Tic-Tac-Toe with complex decision-making algorithms.<br/>"
+excerpt: "Two projects with two different decision-making algorithms for an advanced AI-driven version of Tic-Tac-Toe.<br/>"
 collection: portfolio
 ---
 
@@ -29,12 +29,14 @@ The Ultimate Tic-Tac-Toe AI Game is a sophisticated and challenging twist on the
 
 ## Screenshots
 
-Alpha-Beta pruning game:
+**Alpha-Beta pruning game:**
+<br/>
 <img src='https://orgonah.github.io/YasinDanesh.github.io/images/Alpha-Beta.png' alt='Alpha-Beta Image' style="margin-bottom:15px; width: 70%">
 <br/>
 <br/>
 <br/>
-MCTS game:
+**MCTS game:**
+<br/>
 <img src='https://orgonah.github.io/YasinDanesh.github.io/images/MCTS.png' alt='MCTS Image' style="margin-bottom:15px; width: 70%">
 <br/>
 

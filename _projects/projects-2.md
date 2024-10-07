@@ -1,12 +1,12 @@
 ---
-title: "Handwriting and CAPTCHA OCR"
-excerpt: "both these codes are using a CNN-RNN model with a CTC loss layer to handle sequence prediction. The models achieved over 99% accuracy in recognizing variable-length character sequences from images."
+title: "Handwriting and CAPTCHA Recognition"
+excerpt: "both these projects are using a CNN-RNN model with a CTC loss layer to handle sequence prediction. The models achieved over 99% accuracy in recognizing variable-length character sequences from images."
 collection: portfolio
 ---
 
 ## Overview
 
-This project implements two different applications: **Handwriting Recognition** and **CAPTCHA OCR**. Both projects share the same model architecture, including a Convolutional Neural Network (CNN) for feature extraction and a Recurrent Neural Network (RNN) with a Connectionist Temporal Classification (CTC) layer for sequence prediction. The CTC layer is critical for handling variable-length sequences and allows the model to make accurate predictions without needing pre-segmented data. Both models achieve more than 99% accuracy.
+These projects implement two different applications: **Handwriting Recognition** and **CAPTCHA OCR**. Both projects share the same model architecture, including a Convolutional Neural Network (CNN) for feature extraction and a Recurrent Neural Network (RNN) with a Connectionist Temporal Classification (CTC) layer for sequence prediction. The CTC layer is critical for handling variable-length sequences and allows the model to make accurate predictions without needing pre-segmented data. Both models achieve more than 99% accuracy.
 
 ## Common Architecture
 
@@ -33,12 +33,14 @@ The model was tested on unseen data, and the accuracy was confirmed with mean ed
 
 Screenshots showcasing the results for both projects are included below.
 
-Captcha Recognition:
+**Captcha Recognition:**
+<br/>
 <img src='https://orgonah.github.io/YasinDanesh.github.io/images/Captcha.png' alt='Captcha Image' style="margin-bottom:15px; width: 70%">
 <br/>
 <br/>
 <br/>
-Handwriting Recognition:
+**Handwriting Recognition:**
+<br/>
 <img src='https://orgonah.github.io/YasinDanesh.github.io/images/Handwriting.png' alt='Handwriting Image' style="margin-bottom:15px; width: 70%">
 <br/>
 <br/>
