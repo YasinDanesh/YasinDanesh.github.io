@@ -11,7 +11,7 @@ Below are some memorable events I've participated in, with photos and brief desc
 
 ---
 
-## CTF Competition 2024
+## Organizing CTF Competition 2024
 
 <img src='https://orgonah.github.io/YasinDanesh.github.io/images/CTF-1.jpg' alt='CTF Image 1' style="margin-bottom:15px; width: 70%">
 <img src='https://orgonah.github.io/YasinDanesh.github.io/images/CTF-2.jpg' alt='CTF Image 2' style="margin-bottom:15px; width: 70%">
