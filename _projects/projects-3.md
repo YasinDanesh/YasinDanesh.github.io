@@ -39,6 +39,7 @@ Screenshots showcasing the results for both projects:
 <br/>
 <img src='https://orgonah.github.io/YasinDanesh.github.io/images/Python-Digit.png' alt='Digit Image 1' style="margin-bottom:15px; width: 70%">
 <br/>
+<br/>
 
 **Recognition with MATLAB:**
 <br/>
