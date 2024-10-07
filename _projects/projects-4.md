@@ -44,7 +44,7 @@ The Ultimate Tic-Tac-Toe AI Game is a sophisticated and challenging twist on the
 
 The Ultimate Tic-Tac-Toe AI Game project showcases the integration of advanced AI techniques to create a challenging and enjoyable game. By Utilizing Alpha-Beta Pruning and Monte Carlo Tree Search, the AI is capable of making sophisticated decisions, providing a robust opponent for players.
 
-## Code
+<br/>
 
 The complete code for this project is available on [this repository](https://github.com/Orgonah/Ultimate_Tic_tac_toe_AI).
 Feel free to explore the repositories to understand the implementation details and contribute to the project.

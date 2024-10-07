@@ -24,7 +24,7 @@ I have worked on various projects ranging from **handwriting recognition** to **
 
 I have gained professional experience during my **internship at Payampardaz**, where I focused on **researching and implementing AI in SD-WAN**. I developed machine learning models for fault management, utilizing real-world datasets to predict network faults and improve reliability. This hands-on experience helped me hone my skills in AI model development and network solutions.
 
-Additionally, I participated in the **Neural Network Summer Camp** at Isfahan University, where I worked extensively with deep learning frameworks like TensorFlow and PyTorch. During this camp, I developed projects involving DNN, CNN, and RNN architectures, solidifying my understanding of **deep learning** and its applications to real-world problems.
+Additionally, I participated in the **Neural Network Summer Camp** at Isfahan University of Technology, where I worked extensively with deep learning frameworks like TensorFlow and PyTorch. During this camp, I developed projects involving DNN, CNN, and RNN architectures, solidifying my understanding of **deep learning** and its applications to real-world problems.
 
 ## Teaching Experiences
 
