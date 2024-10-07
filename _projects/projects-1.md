@@ -30,7 +30,14 @@ The Ultimate Tic-Tac-Toe AI Game is a sophisticated and challenging twist on the
 ## Screenshots
 
 <img src='https://orgonah.github.io/YasinDanesh.github.io/images/Alpha-Beta.png' alt='Alpha-Beta Image' style="margin-bottom:15px; width: 70%">
+<br/>
+Alpha-Beta pruning game
+<br/>
+<br/>
+<br/>
 <img src='https://orgonah.github.io/YasinDanesh.github.io/images/MCTS.png' alt='MCTS Image' style="margin-bottom:15px; width: 70%">
+<br/>
+MCTS game
 <br/>
 
 ## Conclusion
