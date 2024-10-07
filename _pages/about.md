@@ -33,4 +33,5 @@ I have also been actively involved in **teaching and mentoring** students throug
 Moreover, I have conducted research on **Data Compression & AI Applications**, presenting findings and helping students explore the exciting intersection between compression techniques and artificial intelligence. Over the course of five semesters, I also supported students as a TA in **Basic & Advanced Programming**, guiding them through practical programming challenges.
 
 &nbsp;
+
 Feel free to explore my projects, CV, and gallery to learn more about my academic journey.
