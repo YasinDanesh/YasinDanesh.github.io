@@ -59,4 +59,4 @@ red numbers and put it below the image in Farsi:
 <br/>
 <br/>
 <br/>
-For full code and further details, visit [Captcha GitHub repository](https://github.com/Orgonah/Captcha-OCR-CNN-RNN) and [Handwriting GitHub repository](https://github.com/Orgonah/Handwriting-Recognition)
+For full code and further details, visit [MATLAB project](https://github.com/Orgonah/Image-Number-Detection-and-Computation), [Tensorflow project](https://github.com/Orgonah/Digit-Recognition-CNN) and [Pytorch project](https://github.com/Orgonah/MNIST-Classification)

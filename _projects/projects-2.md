@@ -44,4 +44,4 @@ Screenshots showcasing the results for both projects are included below.
 <br/>
 <br/>
 <br/>
-For full code and further details, visit [Captcha GitHub repository](https://github.com/Orgonah/Captcha-OCR-CNN-RNN) and [Handwriting GitHub repository](https://github.com/Orgonah/Handwriting-Recognition)
+For full code and further details, visit [Captcha project](https://github.com/Orgonah/Captcha-OCR-CNN-RNN) and [Handwriting project](https://github.com/Orgonah/Handwriting-Recognition)
