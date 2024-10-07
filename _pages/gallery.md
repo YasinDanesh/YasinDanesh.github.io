@@ -14,19 +14,21 @@ Below are some memorable events I've participated in, with photos and brief desc
 ## Organizing CTF Competition 2023
 
 <div style="display:flex; flex-direction:row; align-items:center; justify-content: space-around; flex-wrap:wrap;">
-    <img src='https://orgonah.github.io/YasinDanesh.github.io/images/CTF-2.jpg' alt='CTF Image 2' style="margin-bottom:15px; height: 200px;">
-    <img src='https://orgonah.github.io/YasinDanesh.github.io/images/CTF-3.jpg' alt='CTF Image 3' style="margin-bottom:15px; height: 200px;">
-    <img src='https://orgonah.github.io/YasinDanesh.github.io/images/CTF-1.jpg' alt='CTF Image 1' style="margin-bottom:15px; height: 200px;">
+    <img src='https://orgonah.github.io/YasinDanesh.github.io/images/CTF-2.jpg' alt='CTF Image 2' style="margin-bottom:15px; width: 60%">
+    <img src='https://orgonah.github.io/YasinDanesh.github.io/images/CTF-3.jpg' alt='CTF Image 3' style="margin-bottom:15px; width: 60%">
+    <img src='https://orgonah.github.io/YasinDanesh.github.io/images/CTF-1.jpg' alt='CTF Image 1' style="margin-bottom:15px; width: 60%">
 </div>
 <br/>
-**Description:** Served as a staff member for the national Capture The Flag (CTF) competition, where I helped design challenges and manage the event logistics. This role allowed me to collaborate with fellow cybersecurity enthusiasts and enhance my skills in organizing technical events.
+**Description:** Served as a staff member for the national Capture The Flag (CTF) competition, where I helped design challenges and manage the event logistics.
 
 ---
 
-## Event 2: [Event Name]
+## AI Coding Contest 2023
 
-![Event 2](https://github.com/Orgonah/YasinDanesh.github.io/tree/master/images/ACM-1.jpg)  
-**Description:** Brief description of the event, your role, or any significant takeaway.
+![AICup 1](path_to_image1.jpg)  
+**Description:** Participated as the chairman of the AICup coding contest, where over 1000 contestants showcased their AI algorithms in problem-solving challenges.
+
+-
 
 ---
 
