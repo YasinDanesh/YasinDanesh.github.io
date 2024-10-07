@@ -14,7 +14,7 @@ body {
   color: $text-color;
   font-family: $global-font-family;
   line-height: 1.5;
-  background-color: #313131;
+  background-color: #1f1f1f;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
@@ -281,6 +281,8 @@ svg:not(:root) {
  */
 
 nav {
+  background-color: #313131;
+
   ul {
     margin: 0;
     padding: 0;
