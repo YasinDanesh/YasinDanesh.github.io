@@ -39,7 +39,6 @@ Screenshots showcasing the results for both projects:
 <br/>
 <img src='https://orgonah.github.io/YasinDanesh.github.io/images/Python-Digit.png' alt='Digit Image 1' style="margin-bottom:15px; width: 70%">
 <br/>
-<br/>
 
 **Recognition with MATLAB:**
 <br/>
@@ -60,4 +59,4 @@ red numbers and put it below the image in Farsi:
 <br/>
 <br/>
 <br/>
-For full code and further details, visit [MATLAB project](https://github.com/Orgonah/Image-Number-Detection-and-Computation), [Tensorflow project](https://github.com/Orgonah/Digit-Recognition-CNN) and [Pytorch project](https://github.com/Orgonah/MNIST-Classification)
+For full code and further details, visit [MATLAB project](https://github.com/Orgonah/Image-Number-Detection-and-Computation), [Tensorflow project](https://github.com/Orgonah/Digit-Recognition-CNN) and [Pytorch project](https://github.com/Orgonah/MNIST-Classification).

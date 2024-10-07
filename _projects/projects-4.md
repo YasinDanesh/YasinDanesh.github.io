@@ -1,50 +1,51 @@
 ---
-title: "Image Denoising Techniques"
-excerpt: " Innovative methods for image denoising using MATLAB and deep learning techniques. These projects showcase expertise in removing noise and enhancing image quality through advanced filtering and autoencoder models."
+title: "Ultimate Tic-Tac-Toe AI Game"
+excerpt: "Two projects with two different decision-making algorithms for an advanced AI-driven version of Tic-Tac-Toe."
 collection: portfolio
 ---
 
 ## Overview
 
-This collection features specific image denoising techniques, including a MATLAB algorithm for salt and pepper noise removal and a convolutional autoencoder implemented with Keras to enhance image quality in the MNIST dataset.
+The Ultimate Tic-Tac-Toe AI Game is a sophisticated and challenging twist on the classic Tic-Tac-Toe game. This project involves the development of both the game logic and the user interface, creating an engaging experience for players.
 
-## Salt and Pepper Denoising using MATLAB
+## Features
 
-Developed an advanced denoising algorithm for images affected by salt and pepper noise, surpassing the performance of traditional Gaussian and median filters. This project also involved implementing edge detection and thresholding techniques to accurately identify numbers within the images.
+- **Alpha-Beta Pruning**:
+  - Implemented using the Raylib library, Alpha-Beta Pruning helps the AI player make optimized decisions by efficiently pruning the search tree, reducing the number of nodes evaluated and thereby speeding up the decision-making process.
+  - The algorithm ensures that the AI player is both competitive and quick, providing a challenging opponent for human players.
 
-**Key Features**
+- **Monte Carlo Tree Search (MCTS)**:
+  - Integrated using the Pygame library, MCTS is employed to enhance the AI strategy in complex game scenarios.
+  - This algorithm allows the AI to make informed decisions by simulating numerous possible game outcomes and selecting the move that leads to the most favorable results.
+  - MCTS is particularly effective in handling the larger search space of Ultimate Tic-Tac-Toe, making the AI robust and adaptable.
 
-- **Enhanced Denoising**: Utilized innovative methods to effectively remove salt and pepper noise from images.
-- **Edge Detection**: Applied edge detection algorithms to enhance the clarity of object boundaries within the images.
-- **Thresholding**: Implemented thresholding techniques for precise number detection.
+## Implementation Details
 
-## Image Denoising Using Autoencoder
+1. **Alpha-Beta Pruning Using C++**:
+   - Developed with the Raylib library, the game interface provides a smooth and interactive experience.
+   - The Alpha-Beta Pruning algorithm significantly reduces the computation time by eliminating branches in the search tree that do not need to be explored, allowing the AI to perform efficiently even under time constraints.
 
-This project focuses on using a convolutional autoencoder to denoise images, particularly leveraging the MNIST dataset. The deep convolutional autoencoder is designed to transform noisy digit images into clean versions, showcasing a practical application of deep learning in image processing.
+2. **Monte Carlo Tree Search Using Python**:
+   - Utilizing the Pygame library, the user interface is designed to be intuitive and user-friendly.
+   - MCTS enhances the AI's strategic depth by evaluating multiple potential moves through random simulations, improving the quality of the AI's decisions over time.
 
-**Model Architecture**
+## Screenshots
 
-Convolutional Autoencoder: Built using Keras Functional API, the model consists of convolutional layers to effectively capture and reconstruct image features.
-
-**Training Process**
-
-1. **Initial Training:** The autoencoder is first trained using clean images for both input and output, allowing it to learn the baseline image features.
-2. **Denoising Training:** In the second phase, the model is retrained using noisy images as input and clean images as output, enabling it to learn the denoising process.
-
-## ScreenShots
-
-Screenshots showcasing the results for both projects:
-
-**Denoising with Autoencoder:**
+**Alpha-Beta pruning game:**
 <br/>
-<img src='https://orgonah.github.io/YasinDanesh.github.io/images/Denoise_AE.png' alt='Denoise 1' style="margin-bottom:15px; width: 70%">
-<br/>
+<img src='https://orgonah.github.io/YasinDanesh.github.io/images/Alpha-Beta.png' alt='Alpha-Beta Image' style="margin-bottom:15px; width: 70%">
 <br/>
 
-**Denoising S&P with filters:**
+**MCTS game:**
 <br/>
-<img src='https://orgonah.github.io/YasinDanesh.github.io/images/Denoise_MATLAB.png' alt='Denoise 2' style="margin-bottom:15px; width: 70%">
+<img src='https://orgonah.github.io/YasinDanesh.github.io/images/MCTS.png' alt='MCTS Image' style="margin-bottom:15px; width: 70%">
 <br/>
-<br/>
-<br/>
-For full code and further details, visit [MATLAB project](https://github.com/Orgonah/Image-Number-Detection-and-Computation), [Tensorflow project](https://github.com/Orgonah/Digit-Recognition-CNN) and [Pytorch project](https://github.com/Orgonah/MNIST-Classification)
+
+## Conclusion
+
+The Ultimate Tic-Tac-Toe AI Game project showcases the integration of advanced AI techniques to create a challenging and enjoyable game. By Utilizing Alpha-Beta Pruning and Monte Carlo Tree Search, the AI is capable of making sophisticated decisions, providing a robust opponent for players.
+
+## Code
+
+The complete code for this project is available on [this repository](https://github.com/Orgonah/Ultimate_Tic_tac_toe_AI).
+Feel free to explore the repositories to understand the implementation details and contribute to the project.

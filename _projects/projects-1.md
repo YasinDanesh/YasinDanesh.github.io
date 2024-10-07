@@ -1,51 +1,47 @@
 ---
-title: "Ultimate Tic-Tac-Toe AI Game"
-excerpt: "Two projects with two different decision-making algorithms for an advanced AI-driven version of Tic-Tac-Toe.<br/>"
+title: "Handwriting and CAPTCHA Recognition"
+excerpt: "both these projects are using a CNN-RNN model with a CTC loss layer to handle sequence prediction. The models achieved over 99% accuracy in recognizing variable-length character sequences from images."
 collection: portfolio
 ---
 
 ## Overview
 
-The Ultimate Tic-Tac-Toe AI Game is a sophisticated and challenging twist on the classic Tic-Tac-Toe game. This project involves the development of both the game logic and the user interface, creating an engaging experience for players.
+These projects implement two different applications: **Handwriting Recognition** and **CAPTCHA OCR**. Both projects share the same model architecture, including a Convolutional Neural Network (CNN) for feature extraction and a Recurrent Neural Network (RNN) with a Connectionist Temporal Classification (CTC) layer for sequence prediction. The CTC layer is critical for handling variable-length sequences and allows the model to make accurate predictions without needing pre-segmented data. Both models achieve more than 99% accuracy.
 
-## Features
+## Common Architecture
 
-- **Alpha-Beta Pruning**:
-  - Implemented using the Raylib library, Alpha-Beta Pruning helps the AI player make optimized decisions by efficiently pruning the search tree, reducing the number of nodes evaluated and thereby speeding up the decision-making process.
-  - The algorithm ensures that the AI player is both competitive and quick, providing a challenging opponent for human players.
+The core model consists of:
 
-- **Monte Carlo Tree Search (MCTS)**:
-  - Integrated using the Pygame library, MCTS is employed to enhance the AI strategy in complex game scenarios.
-  - This algorithm allows the AI to make informed decisions by simulating numerous possible game outcomes and selecting the move that leads to the most favorable results.
-  - MCTS is particularly effective in handling the larger search space of Ultimate Tic-Tac-Toe, making the AI robust and adaptable.
+- **CNN Layers**: Two convolutional layers followed by max-pooling layers for extracting features from input images.
+- **Reshape and Dense Layers**: The output is reshaped and passed through a dense layer to reduce dimensions.
+- **RNN Layers**: Two bidirectional LSTM layers are employed to learn temporal dependencies in the input sequence.
+- **CTC Layer**: The CTC loss layer is used for training the model to predict sequences of characters efficiently, handling variable-length outputs without explicit alignment.
 
-## Implementation Details
+## CAPTCHA OCR
 
-1. **Alpha-Beta Pruning Using C++**:
-   - Developed with the Raylib library, the game interface provides a smooth and interactive experience.
-   - The Alpha-Beta Pruning algorithm significantly reduces the computation time by eliminating branches in the search tree that do not need to be explored, allowing the AI to perform efficiently even under time constraints.
+The **CAPTCHA OCR** model is trained on a synthetic dataset of CAPTCHA images. These CAPTCHA images are more challenging because of noise, distortion, and variations in character length. Despite these challenges, the architecture based on CNN, RNN, and CTC proved robust, yielding over 99% accuracy on validation data.
 
-2. **Monte Carlo Tree Search Using Python**:
-   - Utilizing the Pygame library, the user interface is designed to be intuitive and user-friendly.
-   - MCTS enhances the AI's strategic depth by evaluating multiple potential moves through random simulations, improving the quality of the AI's decisions over time.
+This model predicts the sequence of characters in CAPTCHA images without any pre-segmentation and handles noise effectively. The accuracy was verified by comparing the predicted outputs against the ground truth labels. Incorrect predictions were analyzed visually to further improve performance.
 
-## Screenshots
+## Handwriting Recognition
 
-**Alpha-Beta pruning game:**
+The **Handwriting Recognition** model is trained on the IAM dataset, consisting of images of handwritten words. The images are resized and normalized before feeding them into the model. The CTC layer enables the model to predict characters from sequences without requiring manually segmented inputs. This allows the model to learn and generalize over complex handwritten inputs.
+
+The model was tested on unseen data, and the accuracy was confirmed with mean edit distance metrics, demonstrating excellent generalization capabilities. The results were visualized with the model correctly predicting sequences for handwritten word images.
+
+## ScreenShots
+
+Screenshots showcasing the results for both projects are included below.
+
+**Captcha Recognition:**
 <br/>
-<img src='https://orgonah.github.io/YasinDanesh.github.io/images/Alpha-Beta.png' alt='Alpha-Beta Image' style="margin-bottom:15px; width: 70%">
-<br/>
-<br/>
-**MCTS game:**
-<br/>
-<img src='https://orgonah.github.io/YasinDanesh.github.io/images/MCTS.png' alt='MCTS Image' style="margin-bottom:15px; width: 70%">
+<img src='https://orgonah.github.io/YasinDanesh.github.io/images/Captcha.png' alt='Captcha Image' style="margin-bottom:15px; width: 70%">
 <br/>
 
-## Conclusion
-
-The Ultimate Tic-Tac-Toe AI Game project showcases the integration of advanced AI techniques to create a challenging and enjoyable game. By Utilizing Alpha-Beta Pruning and Monte Carlo Tree Search, the AI is capable of making sophisticated decisions, providing a robust opponent for players.
-
-## Code
-
-The complete code for this project is available on [this repository](https://github.com/Orgonah/Ultimate_Tic_tac_toe_AI)
-Feel free to explore the repositories to understand the implementation details and contribute to the project.
+**Handwriting Recognition:**
+<br/>
+<img src='https://orgonah.github.io/YasinDanesh.github.io/images/Handwriting.png' alt='Handwriting Image' style="margin-bottom:15px; width: 70%">
+<br/>
+<br/>
+<br/>
+For full code and further details, visit [Captcha project](https://github.com/Orgonah/Captcha-OCR-CNN-RNN) and [Handwriting project](https://github.com/Orgonah/Handwriting-Recognition).
