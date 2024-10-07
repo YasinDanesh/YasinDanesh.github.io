@@ -6,7 +6,9 @@ collection: portfolio
 
 The Ultimate Tic-Tac-Toe AI Game is a sophisticated and challenging twist on the classic Tic-Tac-Toe game. This project involves the development of both the game logic and the user interface, creating an engaging experience for players.
 
-### Features
+## Features
+
+---
 
 - **Alpha-Beta Pruning**:
   - Implemented using the Raylib library, Alpha-Beta Pruning helps the AI player make optimized decisions by efficiently pruning the search tree, reducing the number of nodes evaluated and thereby speeding up the decision-making process.
@@ -17,7 +19,9 @@ The Ultimate Tic-Tac-Toe AI Game is a sophisticated and challenging twist on the
   - This algorithm allows the AI to make informed decisions by simulating numerous possible game outcomes and selecting the move that leads to the most favorable results.
   - MCTS is particularly effective in handling the larger search space of Ultimate Tic-Tac-Toe, making the AI robust and adaptable.
 
-### Implementation Details
+## Implementation Details
+
+---
 
 1. **Alpha-Beta Pruning Using C++**:
    - Developed with the Raylib library, the game interface provides a smooth and interactive experience.
@@ -27,16 +31,22 @@ The Ultimate Tic-Tac-Toe AI Game is a sophisticated and challenging twist on the
    - Utilizing the Pygame library, the user interface is designed to be intuitive and user-friendly.
    - MCTS enhances the AI's strategic depth by evaluating multiple potential moves through random simulations, improving the quality of the AI's decisions over time.
 
-### Screenshots
+## Screenshots
+
+---
 
 ![Alpha-Beta Pruning Interface](path/to/alpha-beta-screenshot.png)
 ![MCTS Interface](path/to/mcts-screenshot.png)
 
-### Conclusion
+## Conclusion
+
+---
 
 The Ultimate Tic-Tac-Toe AI Game project showcases the integration of advanced AI techniques to create a challenging and enjoyable game. By Utilizing Alpha-Beta Pruning and Monte Carlo Tree Search, the AI is capable of making sophisticated decisions, providing a robust opponent for players.
 
-### Code
+## Code
+
+---
 
 The complete code for this project is available on [this repository](https://github.com/Orgonah/Ultimate_Tic_tac_toe_AI)
 

@@ -9,8 +9,6 @@ author_profile: true
 
 Below are some memorable events I've participated in, with photos and brief descriptions.
 
----
-
 ## Organizing CTF Competition 2024
 
 <img src='https://orgonah.github.io/YasinDanesh.github.io/images/CTF-1.jpg' alt='CTF Image 1' style="margin-bottom:15px; width: 70%">
