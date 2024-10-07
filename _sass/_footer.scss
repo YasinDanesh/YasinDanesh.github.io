@@ -4,7 +4,7 @@
 
 .page__footer {
   @include clearfix;
-  background-color: #1f1f1f;
+  background-color: #1f1f1f !important;
   float: left;
   margin-left: 0;
   margin-right: 0;
