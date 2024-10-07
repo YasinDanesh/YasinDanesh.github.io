@@ -17,16 +17,12 @@ Below are some memorable events I've participated in, with photos and brief desc
 <br/>
 **Description:** Served as a staff member for the national Capture The Flag (CTF) competition, where I helped design challenges and manage the event logistics.
 
----
-
 ## Staff Member for ACM ICPC 2023
 
 <img src='https://orgonah.github.io/YasinDanesh.github.io/images/ACM-1.jpg' alt='ACM Image 1' style="margin-bottom:15px; width: 70%">
 <img src='https://orgonah.github.io/YasinDanesh.github.io/images/ACM-2.jpg' alt='ACM Image 2' style="margin-bottom:15px; width: 70%">
 <br/>
 **Description:** Contributed as a staff member for the ACM ICPC country contest, assisting in organizing the event, coordinating teams, and managing logistics.
-
----
 
 ## Chairman of AICup Contest 2023
 
@@ -35,8 +31,6 @@ Below are some memorable events I've participated in, with photos and brief desc
 <br/>
 
 **Description:** Participated as the chairman of the AICup coding contest, where over 1000 contestants showcased their AI algorithms in problem-solving challenges.
-
----
 
 ## ACM ICPC Country Contest 2022
 

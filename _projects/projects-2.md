@@ -37,7 +37,7 @@ Screenshots showcasing the results for both projects:
 
 **Denoising with Autoencoder:**
 <br/>
-<img src='https://orgonah.github.io/YasinDanesh.github.io/images/Denoise_AE.png' alt='Denoise 1' style="margin-bottom:15px; width: 70%">
+<img src='https://orgonah.github.io/YasinDanesh.github.io/images/Denoise_AE.png' alt='Denoise 1' style="margin-bottom:15px; width: 100%">
 <br/>
 
 **Denoising S&P with filters:**
