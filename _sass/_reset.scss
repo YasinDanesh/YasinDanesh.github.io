@@ -54,6 +54,10 @@ audio:not([controls]) {
   display: none;
 }
 
+nav {
+  background-color: $background-color;
+}
+
 a {
   color: $link-color;
 }
