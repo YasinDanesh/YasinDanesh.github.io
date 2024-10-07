@@ -35,13 +35,12 @@ Screenshots showcasing the results for both projects are included below.
 
 **Captcha Recognition:**
 <br/>
-<img src='https://orgonah.github.io/YasinDanesh.github.io/images/Captcha.png' alt='Captcha Image' style="margin-bottom:15px; width: 100%">
-<br/>
+<img src='https://orgonah.github.io/YasinDanesh.github.io/images/Captcha.png' alt='Captcha Image' style="margin-bottom:15px; width: 100%">  
 
 **Handwriting Recognition:**
 <br/>
 <img src='https://orgonah.github.io/YasinDanesh.github.io/images/Handwriting.png' alt='Handwriting Image' style="margin-bottom:15px; width: 100%">
 <br/>
 <br/>
-<br/>
+
 For full code and further details, visit [Captcha project](https://github.com/Orgonah/Captcha-OCR-CNN-RNN) and [Handwriting project](https://github.com/Orgonah/Handwriting-Recognition).
