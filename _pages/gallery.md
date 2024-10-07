@@ -13,10 +13,10 @@ Below are some memorable events I've participated in, with photos and brief desc
 
 ## Organizing CTF Competition 2023
 
-<div style="display:flex; flex-direction:row; align-items:center; justify-content: space-around; flex-wrap:wrap;">
-    <img src='https://orgonah.github.io/YasinDanesh.github.io/images/CTF-2.jpg' alt='CTF Image 2' style="margin-bottom:15px; width: 60%">
-    <img src='https://orgonah.github.io/YasinDanesh.github.io/images/CTF-3.jpg' alt='CTF Image 3' style="margin-bottom:15px; width: 60%">
-    <img src='https://orgonah.github.io/YasinDanesh.github.io/images/CTF-1.jpg' alt='CTF Image 1' style="margin-bottom:15px; width: 60%">
+<div>
+    <img src='https://orgonah.github.io/YasinDanesh.github.io/images/CTF-2.jpg' alt='CTF Image 2' style="margin-bottom:15px; width: 70%">
+    <img src='https://orgonah.github.io/YasinDanesh.github.io/images/CTF-3.jpg' alt='CTF Image 3' style="margin-bottom:15px; width: 70%">
+    <img src='https://orgonah.github.io/YasinDanesh.github.io/images/CTF-1.jpg' alt='CTF Image 1' style="margin-bottom:15px; width: 70%">
 </div>
 <br/>
 **Description:** Served as a staff member for the national Capture The Flag (CTF) competition, where I helped design challenges and manage the event logistics.
