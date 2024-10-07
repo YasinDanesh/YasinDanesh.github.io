@@ -14,8 +14,8 @@ Below are some memorable events I've participated in, with photos and brief desc
 ## Organizing CTF Competition 2023
 
 ![CTF Image 1](../images/CTF-1.jpg)  
-![CTF Image 2](../images/CTF-2.jpg)  
-![CTF Image 3](../images/CTF-3.jpg)  
+![CTF Image 2](/images/CTF-2.jpg)  
+![CTF Image 3](CTF-3.jpg)  
 **Description:** Served as a staff member for the national Capture The Flag (CTF) competition, where I helped design challenges and manage the event logistics. This role allowed me to collaborate with fellow cybersecurity enthusiasts and enhance my skills in organizing technical events.
 
 ---
