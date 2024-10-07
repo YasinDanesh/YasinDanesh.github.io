@@ -38,11 +38,9 @@ Screenshots showcasing the results for both projects are included below.
 <img src='https://orgonah.github.io/YasinDanesh.github.io/images/Captcha.png' alt='Captcha Image' style="margin-bottom:15px; width: 70%">
 <br/>
 <br/>
-<br/>
 **Handwriting Recognition:**
 <br/>
 <img src='https://orgonah.github.io/YasinDanesh.github.io/images/Handwriting.png' alt='Handwriting Image' style="margin-bottom:15px; width: 70%">
-<br/>
 <br/>
 <br/>
 <br/>
