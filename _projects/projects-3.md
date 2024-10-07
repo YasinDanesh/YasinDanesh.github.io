@@ -1,5 +1,5 @@
 ---
-title: "Digit Detection"
+title: "Digit Detection Methods"
 excerpt: " These projects explore advanced image processing and deep learning techniques for digit classification and numerical computation using convolutional networks and template matching."
 collection: portfolio
 ---
