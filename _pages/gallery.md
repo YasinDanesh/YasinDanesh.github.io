@@ -11,13 +11,11 @@ Below are some memorable events I've participated in, with photos and brief desc
 
 ---
 
-## Organizing CTF Competition 2024
+## CTF Competition 2024
 
-<div>
-    <img src='https://orgonah.github.io/YasinDanesh.github.io/images/CTF-2.jpg' alt='CTF Image 1' style="margin-bottom:15px; width: 70%">
-    <img src='https://orgonah.github.io/YasinDanesh.github.io/images/CTF-3.jpg' alt='CTF Image 2' style="margin-bottom:15px; width: 70%">
-    <img src='https://orgonah.github.io/YasinDanesh.github.io/images/CTF-1.jpg' alt='CTF Image 3' style="margin-bottom:15px; width: 70%">
-</div>
+<img src='https://orgonah.github.io/YasinDanesh.github.io/images/CTF-1.jpg' alt='CTF Image 1' style="margin-bottom:15px; width: 70%">
+<img src='https://orgonah.github.io/YasinDanesh.github.io/images/CTF-2.jpg' alt='CTF Image 2' style="margin-bottom:15px; width: 70%">
+<img src='https://orgonah.github.io/YasinDanesh.github.io/images/CTF-3.jpg' alt='CTF Image 3' style="margin-bottom:15px; width: 70%">
 <br/>
 **Description:** Served as a staff member for the national Capture The Flag (CTF) competition, where I helped design challenges and manage the event logistics.
 
@@ -27,11 +25,12 @@ Below are some memorable events I've participated in, with photos and brief desc
 
 <img src='https://orgonah.github.io/YasinDanesh.github.io/images/ACM-1.jpg' alt='ACM Image 1' style="margin-bottom:15px; width: 70%">
 <img src='https://orgonah.github.io/YasinDanesh.github.io/images/ACM-2.jpg' alt='ACM Image 2' style="margin-bottom:15px; width: 70%">
+<br/>
 **Description:** Contributed as a staff member for the ACM ICPC country contest, assisting in organizing the event, coordinating teams, and managing logistics.
 
 ---
 
-## AICup Coding Contest 2023
+## Chairman of AICup Contest 2023
 
 <img src='https://orgonah.github.io/YasinDanesh.github.io/images/AICup-1.jpg' alt='CTF Image 1' style="margin-bottom:15px; width: 70%">
 <img src='https://orgonah.github.io/YasinDanesh.github.io/images/AICup-2.jpg' alt='CTF Image 2' style="margin-bottom:15px; width: 70%">
