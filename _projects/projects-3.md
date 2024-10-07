@@ -52,7 +52,7 @@ Denoise and detect Farsi numbers:
 <img src='https://orgonah.github.io/YasinDanesh.github.io/images/Matlab-Digit-out1.png' alt='Digit Image 3' style="margin-bottom:15px; width: 70%">
 <br/>
 <br/>
-Subtracts the sum of blue numbers from the sum of
+Subtracts the sum of blue numbers from the sum of<br/>
 red numbers and put it below the image in Farsi:
 <br/>
 <img src='https://orgonah.github.io/YasinDanesh.github.io/images/Matlab-Digit-out2.png' alt='Digit Image 4' style="margin-bottom:15px; width: 70%">

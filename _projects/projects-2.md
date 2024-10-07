@@ -42,7 +42,7 @@ Screenshots showcasing the results for both projects:
 
 **Denoising S&P with filters:**
 <br/>
-<img src='https://orgonah.github.io/YasinDanesh.github.io/images/Denoise_MATLAB.png' alt='Denoise 2' style="margin-bottom:15px; width: 70%">
+<img src='https://orgonah.github.io/YasinDanesh.github.io/images/Denoise_Matlab.png' alt='Denoise 2' style="margin-bottom:15px; width: 100%">
 <br/>
 <br/>
 <br/>
