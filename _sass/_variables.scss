@@ -66,7 +66,7 @@ $background-color           : #1f1f1f;
 $code-background-color      : #fafafa;
 $code-background-color-dark : $light-gray;
 $text-color                 : $light-gray;
-$border-color               : $lighter-gray;
+$border-color               : mix(#000, $gray, 10%);
 
 $primary-color              : #7a8288;
 $success-color              : #62c462;
