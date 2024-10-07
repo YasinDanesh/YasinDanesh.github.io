@@ -11,6 +11,8 @@ Below are some memorable events I've participated in, with photos and brief desc
 
 ---
 
+Short description of portfolio item number 1<br/><img src='/images/500x300.png'>
+
 ## Organizing CTF Competition 2023
 
 ![CTF Image 1](../images/CTF-1.jpg)  
