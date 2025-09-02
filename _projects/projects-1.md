@@ -35,11 +35,11 @@ Screenshots showcasing the results for both projects are included below.
 
 **Captcha Recognition:**
 <br/>
-<img src='https://YasinDanesh.github.io/YasinDanesh.github.io/images/Captcha.png' alt='Captcha Image' style="margin-bottom:15px; width: 100%">  
+<img src='https://YasinDanesh.github.io/images/Captcha.png' alt='Captcha Image' style="margin-bottom:15px; width: 100%">  
 
 **Handwriting Recognition:**
 <br/>
-<img src='https://YasinDanesh.github.io/YasinDanesh.github.io/images/Handwriting.png' alt='Handwriting Image' style="margin-bottom:15px; width: 100%">
+<img src='https://YasinDanesh.github.io/images/Handwriting.png' alt='Handwriting Image' style="margin-bottom:15px; width: 100%">
 <br/>
 <br/>
 

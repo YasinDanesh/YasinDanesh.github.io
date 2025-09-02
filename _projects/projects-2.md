@@ -37,11 +37,11 @@ Screenshots showcasing the results for both projects:
 
 **Denoising with Autoencoder:**
 <br/>
-<img src='https://YasinDanesh.github.io/YasinDanesh.github.io/images/Denoise_AE.png' alt='Denoise 1' style="margin-bottom:15px; width: 100%">  
+<img src='https://YasinDanesh.github.io/images/Denoise_AE.png' alt='Denoise 1' style="margin-bottom:15px; width: 100%">  
 
 **Denoising S&P with filters:**
 <br/>
-<img src='https://YasinDanesh.github.io/YasinDanesh.github.io/images/Denoise_Matlab.png' alt='Denoise 2' style="margin-bottom:15px; width: 100%">
+<img src='https://YasinDanesh.github.io/images/Denoise_Matlab.png' alt='Denoise 2' style="margin-bottom:15px; width: 100%">
 <br/>
 <br/>
 

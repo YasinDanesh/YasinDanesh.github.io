@@ -37,24 +37,24 @@ Screenshots showcasing the results for both projects:
 
 **Recognition with tensorflow:**
 <br/>
-<img src='https://YasinDanesh.github.io/YasinDanesh.github.io/images/Python-Digit.png' alt='Digit Image 1' style="margin-bottom:15px; width: 70%">  
+<img src='https://YasinDanesh.github.io/images/Python-Digit.png' alt='Digit Image 1' style="margin-bottom:15px; width: 70%">  
 
 **Recognition with MATLAB:**
 <br/>
 Input example:
 <br/>
-<img src='https://YasinDanesh.github.io/YasinDanesh.github.io/images/Matlab-Digit-in.png' alt='Digit Image 2' style="margin-bottom:15px; width: 70%">
+<img src='https://YasinDanesh.github.io/images/Matlab-Digit-in.png' alt='Digit Image 2' style="margin-bottom:15px; width: 70%">
 <br/>
 
 Denoise and detect Farsi numbers:
 <br/>
-<img src='https://YasinDanesh.github.io/YasinDanesh.github.io/images/Matlab-Digit-out1.png' alt='Digit Image 3' style="margin-bottom:15px; width: 70%">
+<img src='https://YasinDanesh.github.io/images/Matlab-Digit-out1.png' alt='Digit Image 3' style="margin-bottom:15px; width: 70%">
 <br/>
 
 Subtracts the sum of blue numbers from the sum of  
 red numbers and put it below the image in Farsi:
 <br/>
-<img src='https://YasinDanesh.github.io/YasinDanesh.github.io/images/Matlab-Digit-out2.png' alt='Digit Image 4' style="margin-bottom:15px; width: 70%">
+<img src='https://YasinDanesh.github.io/images/Matlab-Digit-out2.png' alt='Digit Image 4' style="margin-bottom:15px; width: 70%">
 <br/>
 <br/>
 
