@@ -33,11 +33,11 @@ The Ultimate Tic-Tac-Toe AI Game is a sophisticated and challenging twist on the
 
 **Alpha-Beta pruning game:**
 <br/>
-<img src='https://orgonah.github.io/YasinDanesh.github.io/images/Alpha-Beta.png' alt='Alpha-Beta Image' style="margin-bottom:15px; width: 70%">  
+<img src='https://YasinDanesh.github.io/YasinDanesh.github.io/images/Alpha-Beta.png' alt='Alpha-Beta Image' style="margin-bottom:15px; width: 70%">  
 
 **MCTS game:**
 <br/>
-<img src='https://orgonah.github.io/YasinDanesh.github.io/images/MCTS.png' alt='MCTS Image' style="margin-bottom:15px; width: 70%">
+<img src='https://YasinDanesh.github.io/YasinDanesh.github.io/images/MCTS.png' alt='MCTS Image' style="margin-bottom:15px; width: 70%">
 <br/>
 
 ## Conclusion
@@ -46,5 +46,5 @@ The Ultimate Tic-Tac-Toe AI Game project showcases the integration of advanced A
 
 <br/>
 
-The complete code for this project is available on [this repository](https://github.com/Orgonah/Ultimate_Tic_tac_toe_AI).
+The complete code for this project is available on [this repository](https://github.com/YasinDanesh/Ultimate_Tic_tac_toe_AI).
 Feel free to explore the repositories to understand the implementation details and contribute to the project.

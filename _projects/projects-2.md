@@ -37,12 +37,12 @@ Screenshots showcasing the results for both projects:
 
 **Denoising with Autoencoder:**
 <br/>
-<img src='https://orgonah.github.io/YasinDanesh.github.io/images/Denoise_AE.png' alt='Denoise 1' style="margin-bottom:15px; width: 100%">  
+<img src='https://YasinDanesh.github.io/YasinDanesh.github.io/images/Denoise_AE.png' alt='Denoise 1' style="margin-bottom:15px; width: 100%">  
 
 **Denoising S&P with filters:**
 <br/>
-<img src='https://orgonah.github.io/YasinDanesh.github.io/images/Denoise_Matlab.png' alt='Denoise 2' style="margin-bottom:15px; width: 100%">
+<img src='https://YasinDanesh.github.io/YasinDanesh.github.io/images/Denoise_Matlab.png' alt='Denoise 2' style="margin-bottom:15px; width: 100%">
 <br/>
 <br/>
 
-For full code and further details, visit [S&P filter project](https://github.com/Orgonah/Image-Salt-Pepper-Denoising) and [Autoencoder project](https://github.com/Orgonah/Digit-Recognition-CNN).
+For full code and further details, visit [S&P filter project](https://github.com/YasinDanesh/Image-Salt-Pepper-Denoising) and [Autoencoder project](https://github.com/YasinDanesh/Digit-Recognition-CNN).
