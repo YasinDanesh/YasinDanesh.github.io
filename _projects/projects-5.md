@@ -1,39 +1,50 @@
-# Overview
-**TINC-Plus** is a system for shrinking very large 3D images and volumes (e.g., CT/MRI scans, scientific datasets, giant TIFF stacks) into **tiny, portable files**—while keeping what matters visible and measurable.
+---
+title: "Ultimate Tic-Tac-Toe AI Game"
+excerpt: "Two projects with two different decision-making algorithms for an advanced AI-driven version of Tic-Tac-Toe."
+collection: portfolio
+---
 
-# Description
-Instead of storing every single value, TINC-Plus learns a **compact recipe** for the data. When you need it back, it **redraws** the volume from that recipe, preserving structure and detail that humans and downstream tools care about.
+## Overview
 
-# Model Architecture
-- **Octree partitioning:** The volume is recursively split into 3D blocks (an octree). Coarse nodes cover large regions; deeper leaves focus on fine detail.
-- **Tree-structured MLPs:** Each node owns a tiny MLP that maps coordinates in its region to predicted values. Parent outputs provide a coarse basis; children refine it, adding detail progressively down the tree.
-- **Hierarchical decoding:** During decompression, we traverse the tree to generate predictions, then assemble leaf outputs back into the full volume.
-- **Adaptive parameter allocation:** Model capacity is distributed across nodes based on data variability or residual error, giving complex regions more parameters and simple regions fewer.
-- **Lightweight calibration:** After reconstruction, small affine corrections (global or per-leaf) nudge predictions closer to the original, improving fidelity with minimal storage cost.
+The Ultimate Tic-Tac-Toe AI Game is a sophisticated and challenging twist on the classic Tic-Tac-Toe game. This project involves the development of both the game logic and the user interface, creating an engaging experience for players.
 
-# Key Features
-- **Adaptive Detail:** Complex areas get more modeling effort; simple areas use less.  
-- **Calibration:** Global and per-region corrections polish the reconstruction quality.  
-- **Lean Storage:** Space-efficient formats (like 8-bit or half-precision) and an option to save the whole model as **one compact archive**.  
-- **Transparent Metrics:** Progress, quality, and timing are logged for easy comparison.
+## Features
 
-# Benefits
-- **Smaller Files:** Dramatically reduced storage and faster sharing.  
-- **High Fidelity:** Preserves structures and textures important for analysis.  
-- **Practical Runtime:** Runs on common GPUs.
+- **Alpha-Beta Pruning**:
+  - Implemented using the Raylib library, Alpha-Beta Pruning helps the AI player make optimized decisions by efficiently pruning the search tree, reducing the number of nodes evaluated and thereby speeding up the decision-making process.
+  - The algorithm ensures that the AI player is both competitive and quick, providing a challenging opponent for human players.
 
-# Screeenshots
+- **Monte Carlo Tree Search (MCTS)**:
+  - Integrated using the Pygame library, MCTS is employed to enhance the AI strategy in complex game scenarios.
+  - This algorithm allows the AI to make informed decisions by simulating numerous possible game outcomes and selecting the move that leads to the most favorable results.
+  - MCTS is particularly effective in handling the larger search space of Ultimate Tic-Tac-Toe, making the AI robust and adaptable.
 
+## Implementation Details
 
-**Tree-Structured MLPs in TINC:**
+1. **Alpha-Beta Pruning Using C++**:
+   - Developed with the Raylib library, the game interface provides a smooth and interactive experience.
+   - The Alpha-Beta Pruning algorithm significantly reduces the computation time by eliminating branches in the search tree that do not need to be explored, allowing the AI to perform efficiently even under time constraints.
+
+2. **Monte Carlo Tree Search Using Python**:
+   - Utilizing the Pygame library, the user interface is designed to be intuitive and user-friendly.
+   - MCTS enhances the AI's strategic depth by evaluating multiple potential moves through random simulations, improving the quality of the AI's decisions over time.
+
+## Screenshots
+
+**Alpha-Beta pruning game:**
 <br/>
-<img src='https://YasinDanesh.github.io/images/TINCP_Struct.png' alt='TINCPlus Structure style="margin-bottom:15px; width: 100%">
+<img src='https://YasinDanesh.github.io/images/Alpha-Beta.png' alt='Alpha-Beta Image' style="margin-bottom:15px; width: 70%">  
 
-**TINC-Plus PSNR/SSIM comparing to other mothods:**
+**MCTS game:**
 <br/>
-<img src='https://YasinDanesh.github.io/images/TINCP_Table.png' alt='PSNR/SSIM table' style="margin-bottom:15px; width: 100%">
-<br/>
+<img src='https://YasinDanesh.github.io/images/MCTS.png' alt='MCTS Image' style="margin-bottom:15px; width: 70%">
 <br/>
 
+## Conclusion
 
-For full code and further details, visit [TINC-Plus project](https://github.com/YasinDanesh/TINC)
+The Ultimate Tic-Tac-Toe AI Game project showcases the integration of advanced AI techniques to create a challenging and enjoyable game. By Utilizing Alpha-Beta Pruning and Monte Carlo Tree Search, the AI is capable of making sophisticated decisions, providing a robust opponent for players.
+
+<br/>
+
+The complete code for this project is available on [this repository](https://github.com/YasinDanesh/Ultimate_Tic_tac_toe_AI).
+Feel free to explore the repositories to understand the implementation details and contribute to the project.

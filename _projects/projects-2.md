@@ -1,48 +1,46 @@
 ---
-title: "Image Denoising Techniques"
-excerpt: " Innovative methods for image denoising using MATLAB and deep learning techniques. These projects showcase expertise in removing noise and enhancing image quality through advanced filtering and autoencoder models."
+title: "Handwriting and CAPTCHA Recognition"
+excerpt: "both these projects are using a CNN-RNN model with a CTC loss layer to handle sequence prediction. The models achieved over 99% accuracy in recognizing variable-length character sequences from images."
 collection: portfolio
 ---
 
 ## Overview
 
-This collection features specific image denoising techniques, including a MATLAB algorithm for salt and pepper noise removal and a convolutional autoencoder implemented with Keras to enhance image quality in the MNIST dataset.
+These projects implement two different applications: **Handwriting Recognition** and **CAPTCHA OCR**. Both projects share the same model architecture, including a Convolutional Neural Network (CNN) for feature extraction and a Recurrent Neural Network (RNN) with a Connectionist Temporal Classification (CTC) layer for sequence prediction. The CTC layer is critical for handling variable-length sequences and allows the model to make accurate predictions without needing pre-segmented data. Both models achieve more than 99% accuracy.
 
-## Salt and Pepper Denoising using MATLAB
+## Common Architecture
 
-Developed an advanced denoising algorithm for images affected by salt and pepper (S&P) noise, surpassing the performance of traditional Gaussian and median filters. This project also involved implementing edge detection and thresholding techniques to accurately identify numbers within the images.
+The core model consists of:
 
-**Key Features**
+- **CNN Layers**: Two convolutional layers followed by max-pooling layers for extracting features from input images.
+- **Reshape and Dense Layers**: The output is reshaped and passed through a dense layer to reduce dimensions.
+- **RNN Layers**: Two bidirectional LSTM layers are employed to learn temporal dependencies in the input sequence.
+- **CTC Layer**: The CTC loss layer is used for training the model to predict sequences of characters efficiently, handling variable-length outputs without explicit alignment.
 
-- **Enhanced Denoising**: Utilized innovative methods to effectively remove salt and pepper noise from images.
-- **Edge Detection**: Applied edge detection algorithms to enhance the clarity of object boundaries within the images.
-- **Thresholding**: Implemented thresholding techniques for precise number detection.
+## CAPTCHA OCR
 
-## Image Denoising Using Autoencoder
+The **CAPTCHA OCR** model is trained on a synthetic dataset of CAPTCHA images. These CAPTCHA images are more challenging because of noise, distortion, and variations in character length. Despite these challenges, the architecture based on CNN, RNN, and CTC proved robust, yielding over 99% accuracy on validation data.
 
-This project focuses on using a convolutional autoencoder to denoise images, particularly leveraging the MNIST dataset. The deep convolutional autoencoder is designed to transform noisy digit images into clean versions, showcasing a practical application of deep learning in image processing.
+This model predicts the sequence of characters in CAPTCHA images without any pre-segmentation and handles noise effectively. The accuracy was verified by comparing the predicted outputs against the ground truth labels. Incorrect predictions were analyzed visually to further improve performance.
 
-**Model Architecture**
+## Handwriting Recognition
 
-Convolutional Autoencoder: Built using Keras Functional API, the model consists of convolutional layers to effectively capture and reconstruct image features.
+The **Handwriting Recognition** model is trained on the IAM dataset, consisting of images of handwritten words. The images are resized and normalized before feeding them into the model. The CTC layer enables the model to predict characters from sequences without requiring manually segmented inputs. This allows the model to learn and generalize over complex handwritten inputs.
 
-**Training Process**
-
-1. **Initial Training:** The autoencoder is first trained using clean images for both input and output, allowing it to learn the baseline image features.
-2. **Denoising Training:** In the second phase, the model is retrained using noisy images as input and clean images as output, enabling it to learn the denoising process.
+The model was tested on unseen data, and the accuracy was confirmed with mean edit distance metrics, demonstrating excellent generalization capabilities. The results were visualized with the model correctly predicting sequences for handwritten word images.
 
 ## ScreenShots
 
-Screenshots showcasing the results for both projects:
+Screenshots showcasing the results for both projects are included below.
 
-**Denoising with Autoencoder:**
+**Captcha Recognition:**
 <br/>
-<img src='https://YasinDanesh.github.io/images/Denoise_AE.png' alt='Denoise 1' style="margin-bottom:15px; width: 100%">  
+<img src='https://YasinDanesh.github.io/images/Captcha.png' alt='Captcha Image' style="margin-bottom:15px; width: 100%">  
 
-**Denoising S&P with filters:**
+**Handwriting Recognition:**
 <br/>
-<img src='https://YasinDanesh.github.io/images/Denoise_Matlab.png' alt='Denoise 2' style="margin-bottom:15px; width: 100%">
+<img src='https://YasinDanesh.github.io/images/Handwriting.png' alt='Handwriting Image' style="margin-bottom:15px; width: 100%">
 <br/>
 <br/>
 
-For full code and further details, visit [S&P filter project](https://github.com/YasinDanesh/Image-Salt-Pepper-Denoising) and [Autoencoder project](https://github.com/YasinDanesh/Digit-Recognition-CNN).
+For full code and further details, visit [Captcha project](https://github.com/YasinDanesh/Captcha-OCR-CNN-RNN) and [Handwriting project](https://github.com/YasinDanesh/Handwriting-Recognition).

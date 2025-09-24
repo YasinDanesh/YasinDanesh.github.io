@@ -1,50 +1,61 @@
 ---
-title: "Ultimate Tic-Tac-Toe AI Game"
-excerpt: "Two projects with two different decision-making algorithms for an advanced AI-driven version of Tic-Tac-Toe."
+title: "Digit Detection Methods"
+excerpt: " These projects explore advanced image processing and deep learning techniques for digit classification and numerical computation using convolutional networks and template matching."
 collection: portfolio
 ---
 
 ## Overview
 
-The Ultimate Tic-Tac-Toe AI Game is a sophisticated and challenging twist on the classic Tic-Tac-Toe game. This project involves the development of both the game logic and the user interface, creating an engaging experience for players.
+Both projects explore the use of deep learning and image processing techniques for extracting and analyzing visual data. While one leverages a convolutional network for digit classification, the other employs template matching for numerical detection and computation from images. Together, these projects demonstrate a range of capabilities in working with image data for both recognition and arithmetic operations.
 
-## Features
+## Deep Learning for Digit Classification
 
-- **Alpha-Beta Pruning**:
-  - Implemented using the Raylib library, Alpha-Beta Pruning helps the AI player make optimized decisions by efficiently pruning the search tree, reducing the number of nodes evaluated and thereby speeding up the decision-making process.
-  - The algorithm ensures that the AI player is both competitive and quick, providing a challenging opponent for human players.
+The goal of this project is to accurately classify handwritten digits from grayscale images using a deep learning model. The dataset used is the well-known MNIST database, a cornerstone in evaluating image classification algorithms.
 
-- **Monte Carlo Tree Search (MCTS)**:
-  - Integrated using the Pygame library, MCTS is employed to enhance the AI strategy in complex game scenarios.
-  - This algorithm allows the AI to make informed decisions by simulating numerous possible game outcomes and selecting the move that leads to the most favorable results.
-  - MCTS is particularly effective in handling the larger search space of Ultimate Tic-Tac-Toe, making the AI robust and adaptable.
+A Convolutional Neural Network (CNN) was designed to process the 28x28 pixel input images. Through multiple convolution and pooling layers, the model captures critical features of the handwritten digits before passing them through a fully connected network for classification. To prevent overfitting, a dropout layer was introduced.
 
-## Implementation Details
+- **Network Design**: Two convolutional layers, each followed by pooling, extract spatial hierarchies. The feature maps are then flattened and passed through a dense layer with a softmax activation function to produce digit predictions.
+- **Optimization**: The model is trained using cross-entropy loss and an Adam optimizer, which tunes the network weights for maximum accuracy.
+  
+The model achieved a **99.15% accuracy** on the test data, validating its strong performance in digit recognition tasks. Loss on the test set was remarkably low, highlighting the efficiency of the designed architecture. I have implemented this code with both tensorflow and pytorch.
 
-1. **Alpha-Beta Pruning Using C++**:
-   - Developed with the Raylib library, the game interface provides a smooth and interactive experience.
-   - The Alpha-Beta Pruning algorithm significantly reduces the computation time by eliminating branches in the search tree that do not need to be explored, allowing the AI to perform efficiently even under time constraints.
+## Image-Based Numerical Computation
 
-2. **Monte Carlo Tree Search Using Python**:
-   - Utilizing the Pygame library, the user interface is designed to be intuitive and user-friendly.
-   - MCTS enhances the AI's strategic depth by evaluating multiple potential moves through random simulations, improving the quality of the AI's decisions over time.
+This project automates the detection of Farsi numbers in images based on their color and performs basic arithmetic on the extracted values using MATLAB. This is particularly useful in situations where visual data needs to be quickly interpreted and processed.
 
-## Screenshots
+The image processing pipeline begins with loading and denoising the input images. Farsi Number templates are then used to identify digits based on color—specifically, blue and red digits are detected. Once detected, the system computes the sum of the blue numbers and subtracts this value from the sum of the red numbers.
 
-**Alpha-Beta pruning game:**
+- **Detection**: The system uses predefined number templates for accurate detection of digits in images, filtering based on color.
+- **Computation**: A straightforward subtraction is performed, where the sum of blue numbers is subtracted from the red numbers.
+- **Visualization**: The computed result is displayed visually by inserting a green number beneath the original image. All processed images are saved for future analysis.
+
+The final results are visual and stored for documentation. This solution streamlines image-based numerical calculations and provides an easy-to-understand output.
+
+## ScreenShots
+
+Screenshots showcasing the results for both projects:
+
+**Recognition with tensorflow:**
 <br/>
-<img src='https://YasinDanesh.github.io/images/Alpha-Beta.png' alt='Alpha-Beta Image' style="margin-bottom:15px; width: 70%">  
+<img src='https://YasinDanesh.github.io/images/Python-Digit.png' alt='Digit Image 1' style="margin-bottom:15px; width: 70%">  
 
-**MCTS game:**
+**Recognition with MATLAB:**
 <br/>
-<img src='https://YasinDanesh.github.io/images/MCTS.png' alt='MCTS Image' style="margin-bottom:15px; width: 70%">
+Input example:
 <br/>
-
-## Conclusion
-
-The Ultimate Tic-Tac-Toe AI Game project showcases the integration of advanced AI techniques to create a challenging and enjoyable game. By Utilizing Alpha-Beta Pruning and Monte Carlo Tree Search, the AI is capable of making sophisticated decisions, providing a robust opponent for players.
-
+<img src='https://YasinDanesh.github.io/images/Matlab-Digit-in.png' alt='Digit Image 2' style="margin-bottom:15px; width: 70%">
 <br/>
 
-The complete code for this project is available on [this repository](https://github.com/YasinDanesh/Ultimate_Tic_tac_toe_AI).
-Feel free to explore the repositories to understand the implementation details and contribute to the project.
+Denoise and detect Farsi numbers:
+<br/>
+<img src='https://YasinDanesh.github.io/images/Matlab-Digit-out1.png' alt='Digit Image 3' style="margin-bottom:15px; width: 70%">
+<br/>
+
+Subtracts the sum of blue numbers from the sum of  
+red numbers and put it below the image in Farsi:
+<br/>
+<img src='https://YasinDanesh.github.io/images/Matlab-Digit-out2.png' alt='Digit Image 4' style="margin-bottom:15px; width: 70%">
+<br/>
+<br/>
+
+For full code and further details, visit [MATLAB project](https://github.com/YasinDanesh/Image-Number-Detection-and-Computation), [Tensorflow project](https://github.com/YasinDanesh/Digit-Recognition-CNN) and [Pytorch project](https://github.com/YasinDanesh/MNIST-Classification).

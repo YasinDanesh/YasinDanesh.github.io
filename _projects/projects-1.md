@@ -1,46 +1,45 @@
 ---
-title: "Handwriting and CAPTCHA Recognition"
-excerpt: "both these projects are using a CNN-RNN model with a CTC loss layer to handle sequence prediction. The models achieved over 99% accuracy in recognizing variable-length character sequences from images."
+title: "Neural Compression for 3D Volumes"
+excerpt: "Compact, learned compression for large CT/MRI and scientific datasets. TINC-Plus uses a tree-structured neural model with adaptive detail and lightweight calibration to preserve quality while dramatically reducing storage, with simple one-file exports"
 collection: portfolio
 ---
 
-## Overview
+# Overview
+**TINC-Plus** is a system for shrinking very large 3D images and volumes (e.g., CT/MRI scans, scientific datasets, giant TIFF stacks) into **tiny, portable files**—while keeping what matters visible and measurable.
 
-These projects implement two different applications: **Handwriting Recognition** and **CAPTCHA OCR**. Both projects share the same model architecture, including a Convolutional Neural Network (CNN) for feature extraction and a Recurrent Neural Network (RNN) with a Connectionist Temporal Classification (CTC) layer for sequence prediction. The CTC layer is critical for handling variable-length sequences and allows the model to make accurate predictions without needing pre-segmented data. Both models achieve more than 99% accuracy.
+# Description
+Instead of storing every single value, TINC-Plus learns a **compact recipe** for the data. When you need it back, it **redraws** the volume from that recipe, preserving structure and detail that humans and downstream tools care about.
 
-## Common Architecture
+# Model Architecture
+- **Octree partitioning:** The volume is recursively split into 3D blocks (an octree). Coarse nodes cover large regions; deeper leaves focus on fine detail.
+- **Tree-structured MLPs:** Each node owns a tiny MLP that maps coordinates in its region to predicted values. Parent outputs provide a coarse basis; children refine it, adding detail progressively down the tree.
+- **Hierarchical decoding:** During decompression, we traverse the tree to generate predictions, then assemble leaf outputs back into the full volume.
+- **Adaptive parameter allocation:** Model capacity is distributed across nodes based on data variability or residual error, giving complex regions more parameters and simple regions fewer.
+- **Lightweight calibration:** After reconstruction, small affine corrections (global or per-leaf) nudge predictions closer to the original, improving fidelity with minimal storage cost.
 
-The core model consists of:
+# Key Features
+- **Adaptive Detail:** Complex areas get more modeling effort; simple areas use less.  
+- **Calibration:** Global and per-region corrections polish the reconstruction quality.  
+- **Lean Storage:** Space-efficient formats (like 8-bit or half-precision) and an option to save the whole model as **one compact archive**.  
+- **Transparent Metrics:** Progress, quality, and timing are logged for easy comparison.
 
-- **CNN Layers**: Two convolutional layers followed by max-pooling layers for extracting features from input images.
-- **Reshape and Dense Layers**: The output is reshaped and passed through a dense layer to reduce dimensions.
-- **RNN Layers**: Two bidirectional LSTM layers are employed to learn temporal dependencies in the input sequence.
-- **CTC Layer**: The CTC loss layer is used for training the model to predict sequences of characters efficiently, handling variable-length outputs without explicit alignment.
+# Benefits
+- **Smaller Files:** Dramatically reduced storage and faster sharing.  
+- **High Fidelity:** Preserves structures and textures important for analysis.  
+- **Practical Runtime:** Runs on common GPUs.
 
-## CAPTCHA OCR
+# Screeenshots
 
-The **CAPTCHA OCR** model is trained on a synthetic dataset of CAPTCHA images. These CAPTCHA images are more challenging because of noise, distortion, and variations in character length. Despite these challenges, the architecture based on CNN, RNN, and CTC proved robust, yielding over 99% accuracy on validation data.
 
-This model predicts the sequence of characters in CAPTCHA images without any pre-segmentation and handles noise effectively. The accuracy was verified by comparing the predicted outputs against the ground truth labels. Incorrect predictions were analyzed visually to further improve performance.
-
-## Handwriting Recognition
-
-The **Handwriting Recognition** model is trained on the IAM dataset, consisting of images of handwritten words. The images are resized and normalized before feeding them into the model. The CTC layer enables the model to predict characters from sequences without requiring manually segmented inputs. This allows the model to learn and generalize over complex handwritten inputs.
-
-The model was tested on unseen data, and the accuracy was confirmed with mean edit distance metrics, demonstrating excellent generalization capabilities. The results were visualized with the model correctly predicting sequences for handwritten word images.
-
-## ScreenShots
-
-Screenshots showcasing the results for both projects are included below.
-
-**Captcha Recognition:**
+**Tree-Structured MLPs in TINC:**
 <br/>
-<img src='https://YasinDanesh.github.io/images/Captcha.png' alt='Captcha Image' style="margin-bottom:15px; width: 100%">  
+<img src='https://YasinDanesh.github.io/images/TINCP_Struct.png' alt='TINCPlus Structure style="margin-bottom:15px; width: 100%">
 
-**Handwriting Recognition:**
+**TINC-Plus PSNR/SSIM comparing to other mothods:**
 <br/>
-<img src='https://YasinDanesh.github.io/images/Handwriting.png' alt='Handwriting Image' style="margin-bottom:15px; width: 100%">
+<img src='https://YasinDanesh.github.io/images/TINCP_Table.png' alt='PSNR/SSIM table' style="margin-bottom:15px; width: 100%">
 <br/>
 <br/>
 
-For full code and further details, visit [Captcha project](https://github.com/YasinDanesh/Captcha-OCR-CNN-RNN) and [Handwriting project](https://github.com/YasinDanesh/Handwriting-Recognition).
+
+For full code and further details, visit [TINC-Plus project](https://github.com/YasinDanesh/TINC)
