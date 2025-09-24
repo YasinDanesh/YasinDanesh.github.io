@@ -33,13 +33,12 @@ Instead of storing every single value, TINC-Plus learns a **compact recipe** for
 
 **Tree-Structured MLPs in TINC:**
 <br/>
-<img src='https://YasinDanesh.github.io/images/TINCP_Struct.png' alt='TINCPlus Structure style="margin-bottom:15px; width: 100%">
+<img src='https://YasinDanesh.github.io/images/TINCP_Struct.png' alt='TINCPlus Structure' style="margin-bottom:15px; width: 100%">
 
 **TINC-Plus PSNR/SSIM comparing to other mothods:**
 <br/>
 <img src='https://YasinDanesh.github.io/images/TINCP_Table.png' alt='PSNR/SSIM table' style="margin-bottom:15px; width: 100%">
 <br/>
 <br/>
-
 
 For full code and further details, visit [TINC-Plus project](https://github.com/YasinDanesh/TINC)
