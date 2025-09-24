@@ -18,7 +18,7 @@ I am deeply interested in:
 - Computer Vision and Image Processing
 - Network Architecture, Optimization, and Security
 
-I have worked on various projects ranging from **handwriting recognition** to **medical detections using CNNs**. Additionally, I’ve researched **data compression methods** and **AI applications** and am currently writing an article on using **ML for fault management** in SD-WAN networks.
+I have worked on various projects ranging from **handwriting recognition** to **medical detections using CNNs**. Additionally, I’ve researched **data compression methods using AI** and am currently writing a paper on using **Tree-Structured MLP** for medical image compression.
 
 ## Technical Experiences
 
